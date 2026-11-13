@@ -1,0 +1,6 @@
+{
+  "edr": "docs/edr/0001-media.md",
+  "data": "data/ejemplo.csv",
+  "seed": 42,
+  "resamples": 1000
+}

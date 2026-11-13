@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+.obsidian/workspace*.json
+outputs/runs/*
+!outputs/runs/.gitkeep

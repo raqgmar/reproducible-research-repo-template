@@ -1,0 +1,6 @@
+from: markdown
+to: html5
+standalone: true
+metadata:
+  pagetitle: Demostración de investigación reproducible
+  lang: es

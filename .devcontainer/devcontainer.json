@@ -1,0 +1,4 @@
+{
+  "name": "Investigación reproducible",
+  "image": "python:3.13.2-bookworm"
+}
