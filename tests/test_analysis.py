@@ -7,7 +7,7 @@ class AnalysisTests(unittest.TestCase):
     def test_known_mean(self):
         values = read_values(b"valor\n2\n4\n6\n8\n10\n")
         result = estimate(values, seed=42, resamples=1000)
-        self.assertEqual(result["mean"], 7.0)
+        self.assertEqual(result["mean"], 6.0)
         self.assertEqual(result["n"], 5)
         self.assertLess(result["lower"], result["mean"])
         self.assertGreater(result["upper"], result["mean"])
