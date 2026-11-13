@@ -10,7 +10,7 @@ de Python. Obsidian, Pandoc y el contenedor son opcionales para la primera prác
 Abre una terminal en la carpeta de este README y ejecuta:
 
 ```bash
-python3 -m unittest discover -s tests -v
+python3 -B -m unittest discover -s tests -v
 ```
 
 Deberías ver cuatro pruebas y un `OK`. Una prueba comprueba que la media de los
